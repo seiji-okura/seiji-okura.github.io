@@ -30,8 +30,8 @@ nav li.active{
 }
 
 #logo img{
-  max-width:90px;
-  border: 5px solid #fff;
+  max-width:80px;
+  border: 4px solid #fff;
   border-radius: 100%;
 }
 
@@ -44,4 +44,38 @@ nav li.active{
 img#summit{
   width: 100%;
   height: 100%;
+  clip: rect(100px,100px,100px,100px);
 }
+
+.icon .glyphicon {
+  margin-left:20px;
+  margin-top: 20px;
+  font-size: 30px;
+  color: #777;
+}
+      
+footer {
+  border-top: 1px solid#e7e7e7;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+      
+.copyright {
+  padding: 20px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+span.red {
+  color: red;
+}
+
+.about_me {
+  padding: 10px 0 20px 0;
+  letter-spacing: 0.15em;
+  font-style: bold;
+  font size: 14px;
+}
+
+
+      
