@@ -1,4 +1,8 @@
 
+div.page-header {
+  margin:0px;
+}
+
 body{
   background-color:#fff;
   font-size:14px;
@@ -43,7 +47,7 @@ nav li.active{
 
 img#summit{
   width: 100%;
-  height: 100%;
+  height: 50%;
   clip: rect(100px,100px,100px,100px);
 }
 
@@ -53,11 +57,10 @@ img#summit{
   font-size: 30px;
   color: #777;
 }
+
       
 footer {
-  border-top: 1px solid#e7e7e7;
-  background-color: #f8f8f8;
-  text-align: center;
+  text-align: right;
 }
       
 .copyright {
@@ -74,7 +77,7 @@ span.red {
   padding: 10px 0 20px 0;
   letter-spacing: 0.15em;
   font-style: bold;
-  font size: 14px;
+  font size: 12px;
 }
 
 
